@@ -1,4 +1,4 @@
-$("form").on("submit", function () {
+$("form").on("submit", function (event) {
   event.preventDefault();
   let confirmation;
   if ($("#confirmed").is(':checked')) {
